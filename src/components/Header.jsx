@@ -19,7 +19,7 @@ const Header = () => {
 
         <div className="relative md:justify-self-center">
           <button
-            className="menu-btn md:hidden"
+            className="menu-btn z-10 md:hidden"
             onClick={() => setNavOpen((prev) => !prev)}
           >
             <span className="material-symbols-rounded">
