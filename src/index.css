@@ -27,6 +27,17 @@ body {
   @apply w-full h-full object-cover
 }
 
+.headline-1{
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #fafafaa8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-1{
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
 @layer utilities {
   .transition-custom {
     transition: transform 0.3s ease-in-out;
