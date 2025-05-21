@@ -31,11 +31,15 @@ body {
   @apply pt-20 lg:pt-32
 }
 
-.headline-1{
+.headline-1, .headline-2{
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #fafafaa8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.headline-2{
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold
 }
 
 .headline-1{
