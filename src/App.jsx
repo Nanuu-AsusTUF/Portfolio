@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/about";
 import Skill from "./components/skill";
 import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <About />
         <Skill />
         <Work />
+        <Contact />
       </main>
     </>
   );
