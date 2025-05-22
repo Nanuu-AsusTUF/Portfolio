@@ -17,19 +17,19 @@ const skillItem = [
     desc: "Interaction",
   },
   {
-    imgSrc: "/images/nodejs.svg",
-    label: "NodeJS",
-    desc: "Web Server",
+    imgSrc: "/images/vuejs.svg",
+    label: "VueJS",
+    desc: "Framework",
   },
   {
-    imgSrc: "/images/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
+    imgSrc: "/images/golang.svg",
+    label: "Golang",
+    desc: "Backend Language",
   },
   {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
+    imgSrc: "/images/firebase.svg",
+    label: "Firebase",
+    desc: "database",
   },
   {
     imgSrc: "/images/react.svg",
@@ -41,15 +41,38 @@ const skillItem = [
     label: "TailwindCSS",
     desc: "User Interface",
   },
+  {
+    imgSrc: "/images/sql.svg",
+    label: "Sql",
+    desc: "Database Language",
+  },
+  {
+    imgSrc: "/images/lua.svg",
+    label: "Lua",
+    desc: "Scripting Language",
+  },
+  {
+    imgSrc: "/images/php.svg",
+    label: "PHP",
+    desc: "Backend Language",
+  },
+  {
+    imgSrc: "/images/bootstrap.svg",
+    label: "Bootstrap",
+    desc: "User Interface",
+  },
 ];
 const Skill = () => {
   return (
-    <section className="section">
+    <section className="section" id="skill">
       <div className="container">
-        <h2 className="headline-2">Essential Tools I use</h2>
+        <h2 className="headline-2">
+          Tools I'm Learning as a Student Developer
+        </h2>
         <p className=" text-zinc-300 mt-3 mb-8 max-w[50ch]">
-          Discover the powerful tools and technologies I use to create
-          exceptional, high-performing websites & applications.
+          These are the tools and technologies I'm currently exploring and
+          mastering to build modern, responsive websites and applications on my
+          journey to becoming a full stack developer.
         </p>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
           {skillItem.map(({ imgSrc, label, desc }, key) => (

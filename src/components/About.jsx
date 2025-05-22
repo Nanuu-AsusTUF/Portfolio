@@ -3,11 +3,11 @@ import React from "react";
 const aboutItems = [
   {
     label: "Project done",
-    number: 45,
+    number: 21,
   },
   {
-    label: "Years of experience",
-    number: 10,
+    label: "Months of Industry Internship",
+    number: 6,
   },
 ];
 
@@ -17,11 +17,9 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance.
+            Hi, I'm Ngurah Danuh Putra, a student with a strong interest in
+            becoming a full stack developer. I'm learning how to build complete
+            web apps from front to back, one line of code at a time.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (
