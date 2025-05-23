@@ -101,10 +101,14 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <form action="" method="POST" className="xl:pl-10 2xl:pl-20">
+        <form
+          action="https://getform.io/f/bjjojjdb"
+          method="POST"
+          className="xl:pl-10 2xl:pl-20"
+        >
           <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
             <div className="mb-4">
-              <label htmlFor="" className="label">
+              <label htmlFor="name" className="label">
                 Name
               </label>
               <input
@@ -117,35 +121,38 @@ const Contact = () => {
                 placeholder="Ngurah Danuh Putra"
               />
             </div>
-            <div className="">
-              <label htmlFor="" className="label">
+            <div className="mb-4">
+              <label htmlFor="email" className="label">
                 Email
               </label>
               <input
                 type="email"
                 name="email"
                 id="email"
-                classemail="text-field"
-                autoComplete="name"
+                className="text-field"
+                autoComplete="email"
                 required
                 placeholder="ngurahdanuhputra@gmail.com"
               />
             </div>
           </div>
-          <div className="">
+          <div className="mb-4">
             <label htmlFor="message" className="label">
               Message
             </label>
             <textarea
               name="message"
               id="message"
-              className="text-field"
+              className="text-field resize-y min-h-32 max-h-80"
               placeholder="Hi!"
               required
             ></textarea>
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary [&]:max-w-full w-full justify-center"
+          >
             Submit
           </button>
         </form>
