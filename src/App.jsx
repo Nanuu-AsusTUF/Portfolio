@@ -4,6 +4,9 @@ import "./index.css";
 import ReactLenis from "lenis/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap-trial/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -14,6 +17,18 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 const App = () => {
+  useGSAP(() => {
+    const elemens = gsap.utils.toArray(".reveal-up");
+    elemens.forEach((elemens) => {
+      gsap.to(element, {
+        ScrollTrigger: { trigger: element, scrub: true },
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        ease: "power2.out",
+      });
+    });
+  });
   return (
     <ReactLenis root>
       <Header />
