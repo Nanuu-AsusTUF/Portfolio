@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./index.css";
 import ReactLenis from "lenis/react";
 import gsap from "gsap";
-import ScrollTrigger from "gsap-trial/ScrollTrigger";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
@@ -19,7 +19,7 @@ import Footer from "./components/Footer";
 const App = () => {
   useGSAP(() => {
     const elemens = gsap.utils.toArray(".reveal-up");
-    elemens.forEach((elemens) => {
+    elemens.forEach((element) => {
       gsap.to(element, {
         ScrollTrigger: { trigger: element, scrub: true },
         y: 0,

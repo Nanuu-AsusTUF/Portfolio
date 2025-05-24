@@ -66,17 +66,23 @@ const Skill = () => {
   return (
     <section className="section" id="skill">
       <div className="container">
-        <h2 className="headline-2">
+        <h2 className="headline-2 reveal-up">
           Tools I'm Learning as a Student Developer
         </h2>
-        <p className=" text-zinc-300 mt-3 mb-8 max-w[50ch]">
+        <p className=" text-zinc-300 mt-3 mb-8 max-w[50ch] reveal-up">
           These are the tools and technologies I'm currently exploring and
           mastering to build modern, responsive websites and applications on my
           journey to becoming a full stack developer.
         </p>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
           {skillItem.map(({ imgSrc, label, desc }, key) => (
-            <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} />
+            <SkillCard
+              key={key}
+              imgSrc={imgSrc}
+              label={label}
+              desc={desc}
+              classes="reveal-up"
+            />
           ))}
         </div>
       </div>
