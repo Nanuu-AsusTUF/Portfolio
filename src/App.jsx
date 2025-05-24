@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import "./index.css";
+import ReactLenis from "lenis/react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap-trial/ScrollTrigger";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -12,7 +15,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
@@ -22,7 +25,7 @@ const App = () => {
         <Contact />
         <Footer />
       </main>
-    </>
+    </ReactLenis>
   );
 };
 
