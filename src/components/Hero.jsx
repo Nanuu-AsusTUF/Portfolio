@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 rounded-[60px] overflow-hidden">
             <img
-              src="/images/profil-hero.png"
+              src={`${import.meta.env.BASE_URL}images/profil-hero.png`}
               width={650}
               height={800}
               alt="image danuh home"
