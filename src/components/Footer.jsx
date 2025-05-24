@@ -101,7 +101,7 @@ const Footer = () => {
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="" className=" logo reveal-up">
             <img
-              src="/images/porto-logo.png"
+              src={`${import.meta.env.BASE_URL}images/porto-logo.png`}
               alt="Logo"
               width={40}
               height={40}

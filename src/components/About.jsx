@@ -36,7 +36,7 @@ const About = () => {
               </div>
             ))}
             <img
-              src="/images/porto-logo.png"
+              src={`${import.meta.env.BASE_URL}images/porto-logo.png`}
               alt="Logo"
               width={30}
               height={30}

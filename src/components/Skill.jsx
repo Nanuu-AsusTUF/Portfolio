@@ -2,62 +2,62 @@ import React from "react";
 import SkillCard from "./SkillCard";
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/figma.svg`}",
     label: "Figma",
     desc: "Design tool",
   },
   {
-    imgSrc: "/images/css3.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/css3.svg`}",
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/javascript.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/javascript.svg`}",
     label: "JavaScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "/images/vuejs.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/vuejs.svg`}",
     label: "VueJS",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/golang.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/golang.svg`}",
     label: "Golang",
     desc: "Backend Language",
   },
   {
-    imgSrc: "/images/firebase.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/firebase.svg`}",
     label: "Firebase",
     desc: "database",
   },
   {
-    imgSrc: "/images/react.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/react.svg`}",
     label: "React",
     desc: "Framework",
   },
   {
-    imgSrc: "/images/tailwindcss.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/tailwindcss.svg`}",
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/sql.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/sql.svg`}",
     label: "Sql",
     desc: "Database Language",
   },
   {
-    imgSrc: "/images/lua.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/lua.svg`}",
     label: "Lua",
     desc: "Scripting Language",
   },
   {
-    imgSrc: "/images/php.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/php.svg`}",
     label: "PHP",
     desc: "Backend Language",
   },
   {
-    imgSrc: "/images/bootstrap.svg",
+    imgSrc: "{`${import.meta.env.BASE_URL}images/bootstrap.svg`}",
     label: "Bootstrap",
     desc: "User Interface",
   },
