@@ -2,25 +2,25 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 const works = [
   {
-    imgSrc: `${import.meta.env.BASE_URL}images/danzzlibrary.svg`,
+    imgSrc: `${import.meta.env.BASE_URL}images/danzzlibrary.png`,
     title: "Danzz Library",
     tags: ["FireBase", "React", "Timedoor Academy Project"],
     projectLink: "https://danzz-library.netlify.app/",
   },
   {
-    imgSrc: `${import.meta.env.BASE_URL}images/yatratours.svg`,
+    imgSrc: `${import.meta.env.BASE_URL}images/yatratours.png`,
     title: "Yatratours",
     tags: ["React", "PHP", "Tailwind css", "Development"],
     projectLink: "https://yatratours.world/home",
   },
   {
-    imgSrc: `${import.meta.env.BASE_URL}images/linktree.svg`,
+    imgSrc: `${import.meta.env.BASE_URL}images/linktree.png`,
     title: "Linktree",
     tags: ["React", "Tailwind css"],
     projectLink: "https://linktree-ngurah-danuh-putra.netlify.app/",
   },
   {
-    imgSrc: `${import.meta.env.BASE_URL}images/cyborglegends.svg`,
+    imgSrc: `${import.meta.env.BASE_URL}images/cyborglegends.png`,
     title: "Cyborg Legends",
     tags: ["Phaser 3", "Javascript", "html", "css"],
     projectLink: "https://cyborglegends-ngurahdanuhputra.netlify.app/",
