@@ -2,62 +2,62 @@ import React from "react";
 import SkillCard from "./SkillCard";
 const skillItem = [
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/figma.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/figma.svg`,
     label: "Figma",
     desc: "Design tool",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/css3.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/css3.svg`,
     label: "CSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/javascript.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/javascript.svg`,
     label: "JavaScript",
     desc: "Interaction",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/vuejs.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/vuejs.svg`,
     label: "VueJS",
     desc: "Framework",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/golang.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/golang.svg`,
     label: "Golang",
     desc: "Backend Language",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/firebase.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/firebase.svg`,
     label: "Firebase",
     desc: "database",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/react.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/react.svg`,
     label: "React",
     desc: "Framework",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/tailwindcss.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/tailwindcss.svg`,
     label: "TailwindCSS",
     desc: "User Interface",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/sql.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/sql.svg`,
     label: "Sql",
     desc: "Database Language",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/lua.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/lua.svg`,
     label: "Lua",
     desc: "Scripting Language",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/php.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/php.svg`,
     label: "PHP",
     desc: "Backend Language",
   },
   {
-    imgSrc: "{`${import.meta.env.BASE_URL}images/bootstrap.svg`}",
+    imgSrc: `${import.meta.env.BASE_URL}images/bootstrap.svg`,
     label: "Bootstrap",
     desc: "User Interface",
   },
