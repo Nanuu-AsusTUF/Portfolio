@@ -14,10 +14,6 @@ const sitemap = [
     href: "#work",
   },
   {
-    label: "Reviews",
-    href: "#reviews",
-  },
-  {
     label: "Contact me",
     href: "#contact",
   },
@@ -26,23 +22,23 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/DanuhPutra",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/ngurah-danuh-putra-a3891230a/",
   },
   {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    label: "Netifly",
+    href: "https://app.netlify.com/teams/ngurahdanuhputra/projects",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/danuhputra/",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    label: "Jobstreet",
+    href: "https://id.jobstreet.com/id/profile/ngurahdanuh-putra-pL7vVDGhvw",
   },
 ];
 
