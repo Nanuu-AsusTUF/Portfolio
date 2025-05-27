@@ -12,7 +12,6 @@ const Navbar = ({ navOpen }) => {
     activeBox.current.style.width = lastActiveLink.current.offsetWidth + "px";
     activeBox.current.style.height = lastActiveLink.current.offsetHeight + "px";
   };
-
   useEffect(initActiveBox, []);
   window.addEventListener("resize", initActiveBox);
 
@@ -26,6 +25,7 @@ const Navbar = ({ navOpen }) => {
     activeBox.current.style.width = event.target.offsetWidth + "px";
     activeBox.current.style.height = event.target.offsetHeight + "px";
   };
+
   const navItems = [
     {
       label: "Home",
