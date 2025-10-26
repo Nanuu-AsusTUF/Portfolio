@@ -9,7 +9,7 @@ const Header = () => {
         <h1>
           <a href="/" className="logo">
             <img
-              src="/images/porto-logo.png"
+              src={`${import.meta.env.BASE_URL}images/porto-logo.png`}
               alt="logo navbar"
               width={40}
               height={40}

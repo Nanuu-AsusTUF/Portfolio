@@ -1,0 +1,115 @@
+import React from "react";
+import { ButtonPrimary } from "./button";
+const sitemap = [
+  {
+    label: "Home",
+    href: "#home",
+  },
+  {
+    label: "About",
+    href: "#about",
+  },
+  {
+    label: "Work",
+    href: "#work",
+  },
+  {
+    label: "Contact me",
+    href: "#contact",
+  },
+];
+
+const socials = [
+  {
+    label: "GitHub",
+    href: "https://github.com/DanuhPutra",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/ngurah-danuh-putra-a3891230a/",
+  },
+  {
+    label: "Netifly",
+    href: "https://app.netlify.com/teams/ngurahdanuhputra/projects",
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/danuhputra/",
+  },
+  {
+    label: "Jobstreet",
+    href: "https://id.jobstreet.com/id/profile/ngurahdanuh-putra-pL7vVDGhvw",
+  },
+];
+
+const Footer = () => {
+  return (
+    <footer className="section">
+      <div className="container">
+        <div className=" lg:grid lg:grid-cols-2">
+          <div className="mb-10">
+            <h2 className="headline-1 mb-8 max-w-[12ch] reveal-up">
+              Let&apos;s work together today!
+            </h2>
+            <ButtonPrimary
+              href="mailto:ngurahdanuhputra@gmail.com"
+              label="Start discussion"
+              icon="chevron_right"
+              classes="reveal-up"
+            />
+          </div>
+
+          <div className="grid grid-cols-2 gap-4 lg:pl-20">
+            <div>
+              <p className="mb-2 reveal-up">Sitemap</p>
+              <ul>
+                {sitemap.map(({ label, href }, key) => (
+                  <li key={key}>
+                    <a
+                      href={href}
+                      className="block text-sm py-1 transition-colors hover:text-zinc-200 reveal-up"
+                    >
+                      {label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <p className="mb-2 reveal-up">Socials</p>
+              <ul>
+                {socials.map(({ label, href }, key) => (
+                  <li key={key}>
+                    <a
+                      href={href}
+                      target="_blank"
+                      className="block text-sm py-1 transition-colors hover:text-zinc-200 reveal-up"
+                    >
+                      {label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center justify-between pt-10 mb-8">
+          <a href="" className=" logo reveal-up">
+            <img
+              src={`${import.meta.env.BASE_URL}images/porto-logo.png`}
+              alt="Logo"
+              width={40}
+              height={40}
+            />
+          </a>
+          <p className="text-zinc-500 text-sm reveal-up">
+            &copy; 2025 <span className="text-zinc-200">NgurahDanuhPutra</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
